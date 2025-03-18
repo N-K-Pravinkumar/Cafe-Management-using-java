@@ -31,7 +31,8 @@ public class Admin extends  CafeManagement{
         }
         input.close();
     }
-	public  void adminhome() throws Exception{
+	@SuppressWarnings("resource")
+    public  void adminhome() throws Exception{
     	Scanner sc=new Scanner(System.in);
     	System.out.println();
         System.out.println("1. View orders ");

@@ -132,8 +132,7 @@ public class User extends CafeManagement{
         
 		@SuppressWarnings("resource")
         public void  signup() throws Exception {
-        	@SuppressWarnings("resource")
-            Scanner input=new Scanner(System.in);
+        	Scanner input=new Scanner(System.in);
             System.out.print("Choose a username: ");
             ur.setusername(input.nextLine());
             if (ur.checkname().next()){
